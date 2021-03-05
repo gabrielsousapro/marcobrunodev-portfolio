@@ -2,4 +2,67 @@
     width: 100%;
     height: 80rem;
     background-image: url(../../assets/_img/banner-2.png);
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.blur-box {
+    width: 70vw;
+    height: 100%;
+    background-image: url(../../assets/_img/banner-blur.png);
+}
+
+.box-content {
+    max-width: 640px;
+    padding: 80px 0 0 80px;
+}
+
+.box-content .title-box {
+    max-width: 640px;
+    background-color: var(--color-black-second);
+    padding: 4rem 3.5rem;
+    box-shadow: 5px 5px 0 var(--color-black-first);
+}
+
+.box-content .title-box h1,
+.box-content .title-box h2 {
+    text-align: center;
+    font-family: 'Press Start 2P', sans-serif;
+    text-shadow: 4px 4px 0 var(--color-black-first);
+}
+
+.box-content .title-box h1 {
+    color: var(--color-first);
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-bottom: 3rem;
+}
+
+.box-content .title-box h2 {
+    color: var(--color-third);
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.main-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.box-btn {
+    width: 170px;
+    height: 60px;
+    text-align: center;
+    display: inline-block;
+    background-color: var(--color-first);
+    color: var(--color-third);
+    line-height: 6rem;
+    box-shadow: 5px 5px 0 var(--color-black-first);
+}
+
+.box-btn .right {
+    float: right;
 }
