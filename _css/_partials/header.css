@@ -1,4 +1,4 @@
-#header {
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -7,32 +7,32 @@
     padding: 10px 20px 10px 20px;
 }
 
-.menu {
+.navigation {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.menu li {
+.navigation li {
     margin-right: 5rem;
 }
 
-.menu li a {
+.navigation li a {
     position: relative;
     color: var(--color-third);
     text-decoration: none;
 }
 
-.menu .btn {
+.navigation .btn {
     margin-right: 0;
     transition: transform 200ms;
 }
 
-.menu .btn:hover {
+.navigation .btn:hover {
     transform: scale(1.08);
 }
 
-.menu li .btn-download-cv {
+.navigation li .btn-download-cv {
     display: block;
     background-color: var(--color-first);
     color: var(--color-third);
@@ -41,7 +41,7 @@
     box-shadow: 5px 5px 0 var(--color-black-first);
 }
 
-.menu li a::before {
+.navigation li a::before {
     content: '';
     position: absolute;
     top: calc(50% - 10px/2);
@@ -51,6 +51,6 @@
     height: 10px;
 }
 
-.menu li .btn-download-cv::before {
+.navigation li .btn-download-cv::before {
     content: none;
 }
