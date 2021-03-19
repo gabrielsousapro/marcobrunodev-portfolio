@@ -1,0 +1,54 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 74rem;
+    background-color: var(--color-first);
+    margin-top: -3px;
+}
+
+.skills-box {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto;
+    row-gap: 4.2rem;
+    column-gap: 10rem;
+}
+
+.skill {
+    display: flex;
+}
+
+.skill img {
+    width: 9rem;
+    height: 9rem;
+    margin-right: 2.5rem;
+}
+
+.skill div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skill div h3 {
+    width: 2.5rem;
+    line-height: 2.5rem;
+    font-family: 'Press Start 2P', sans-serif;
+    font-weight: 400;
+    color: var(--color-third);
+}
+
+.bar {
+    width: 32rem;
+    height: 4rem;
+    border: 5px solid #000;
+    box-sizing: border-box;
+    background-color: var(--color-third);
+}
+
+.bar-progress {
+    width: 70%;
+    height: 100%;
+    background-color: var(--color-second);
+}
