@@ -2,7 +2,6 @@
     height: 80rem;
     background-image: url(../../assets/_img/banner.png);
     display: flex;
-    justify-content: left;
     align-items: flex-start;
 }
 
