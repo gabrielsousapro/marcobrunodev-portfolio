@@ -1,0 +1,8 @@
+.headline {
+    text-align: center;
+    font-family: 'Press Start 2P', sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 4rem;
+    color: var(--color-third);
+}
