@@ -25,20 +25,6 @@
 
 .navigation .btn {
     margin-right: 0;
-    transition: transform 200ms;
-}
-
-.navigation .btn:hover {
-    transform: scale(1.08);
-}
-
-.navigation li .btn-download-cv {
-    display: block;
-    background-color: var(--color-first);
-    color: var(--color-third);
-    padding: 0 1.5rem;
-    line-height: 6rem;
-    box-shadow: 5px 5px 0 var(--color-black-first);
 }
 
 .navigation li a::before {
@@ -51,6 +37,6 @@
     height: 10px;
 }
 
-.navigation li .btn-download-cv::before {
+.navigation li .main-btn::before {
     content: none;
 }

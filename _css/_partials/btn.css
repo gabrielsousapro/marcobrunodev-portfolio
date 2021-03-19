@@ -1,0 +1,27 @@
+.main-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.main-btn {
+    width: 170px;
+    height: 60px;
+    text-align: center;
+    display: inline-block;
+    background-color: var(--color-first);
+    color: var(--color-third);
+    line-height: 6rem;
+    cursor: pointer;
+    box-shadow: 5px 5px 0 var(--color-black-first);
+    transition: transform 200ms;
+}
+
+.main-btn:hover {
+    transform: scale(1.08);
+}
+
+.box-btn .right {
+    float: right;
+}
