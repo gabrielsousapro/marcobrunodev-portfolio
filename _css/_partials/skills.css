@@ -21,7 +21,9 @@
 }
 
 .skill img {
+    width: 9rem;
     margin-right: 2.5rem;
+    
 }
 
 .skill div {
