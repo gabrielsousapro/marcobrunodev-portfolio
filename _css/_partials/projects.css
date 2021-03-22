@@ -16,17 +16,18 @@
 
 .box-projects img {
     cursor: pointer;
-    transition: 500ms;
+    transition: 400ms;
+    opacity: 0.7;
 }
 
 .box-projects .project-item01:hover {
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .box-projects .project-item02:hover {
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .box-projects .project-item03:hover {
-    opacity: 0.8;
+    opacity: 1;
 }
