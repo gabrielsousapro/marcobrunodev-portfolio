@@ -17,11 +17,10 @@
 
 .skill {
     display: flex;
+    align-items: center;
 }
 
 .skill img {
-    width: 9rem;
-    height: 9rem;
     margin-right: 2.5rem;
 }
 
