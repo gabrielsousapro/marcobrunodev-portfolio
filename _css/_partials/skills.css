@@ -5,6 +5,7 @@
     height: 74rem;
     background-color: var(--color-first);
     margin-top: -3px;
+    border-bottom: 1rem solid var(--color-second);
 }
 
 .skills-box {
