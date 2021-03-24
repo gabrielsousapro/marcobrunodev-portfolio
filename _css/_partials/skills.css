@@ -4,7 +4,7 @@
     align-items: center;
     height: 74rem;
     background-color: var(--color-first);
-    border-bottom: 1rem solid var(--color-second);
+    border-bottom: 1rem solid var(--color-second);h
 }
 
 .skills-box {
@@ -17,13 +17,11 @@
 
 .skill-component {
     display: flex;
-    align-items: center;
 }
 
 .skill-component .skill-icon {
     width: 9rem;
-    margin-right: 2.5rem;
-    
+    margin-right: 2.5rem;   
 }
 
 .skill-component div {
@@ -33,7 +31,7 @@
 }
 
 .skill-component div .skill-title {
-    width: 2.5rem;
+    font-size: 2.5rem;
     line-height: 2.5rem;
     font-family: 'Press Start 2P', sans-serif;
     font-weight: 400;
