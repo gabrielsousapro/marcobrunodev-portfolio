@@ -1,6 +1,6 @@
 .main {
     height: 80rem;
-    background-image: url(../../assets/_img/banner.png);
+    background-image: url(../../assets/img/banner.png);
     display: flex;
     align-items: flex-start;
     border-bottom: 1rem solid var(--color-black-first);
