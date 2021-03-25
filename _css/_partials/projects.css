@@ -15,20 +15,20 @@
     column-gap: 156px;
 }
 
-.box-projects figure img {
+.box-projects a figure img {
     cursor: pointer;
     transition: 400ms;
     opacity: 0.7;
 }
 
-.box-projects figure .project-item01:hover {
+.box-projects a figure .project-item01:hover {
     opacity: 1;
 }
 
-.box-projects figure .project-item02:hover {
+.box-projects a figure .project-item02:hover {
     opacity: 1;
 }
 
-.box-projects figure .project-item03:hover {
+.box-projects a figure .project-item03:hover {
     opacity: 1;
 }
