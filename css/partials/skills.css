@@ -17,6 +17,8 @@
 
 .skill-component {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .skill-component .skill-icon {
@@ -27,7 +29,7 @@
 .skill-component div {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    box-sizing: border-box;
 }
 
 .skill-component div .skill-title {
@@ -36,6 +38,7 @@
     font-family: 'Press Start 2P', sans-serif;
     font-weight: 400;
     color: var(--color-third);
+    margin-bottom: 3.5rem;
 }
 
 .progress-bar {
