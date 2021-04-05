@@ -1,0 +1,26 @@
+.btn-arrow {
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--color-first);
+    box-shadow: 5px 5px 0 var(--color-black-first);
+    border: none;
+    margin: 0 1.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-arrow::before {
+    content: '';
+    display: block;
+    box-sizing: border-box;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1.5rem solid transparent;
+    border-right: 2.8rem solid #fff;
+    transform: translateX(-12px);
+    
+}
+
+.btn-arrow.-left::before {
+    transform: rotate(180deg) translateX(-5px);
+}
