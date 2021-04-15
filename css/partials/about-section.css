@@ -4,24 +4,6 @@
     border-bottom: 1rem solid var(--color-black-first);
 }
 
-.carousel {
-    display: flex;
-    flex-direction: row;
-}
-
-.gallery {
-    display: flex;
-    align-items: center;
-    margin-bottom: 5rem;
-}
-
-.gallery-cell {
-    width: 33%;
-    height: 20rem;
-    margin: 0 0.5rem;
-    background-color: #8C8;
-}
-
 .description {
     color: var(--color-third);
     font-size: 3rem;

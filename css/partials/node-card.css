@@ -1,0 +1,60 @@
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.node-list {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.node-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    --gap: -3rem;
+    margin-right: calc(-1 * var(--gap));
+}
+
+.node-card .title {
+    font-family: 'Press Start 2P', sans-serif;
+    color: var(--color-first);
+}
+
+.node-card .node-logo {
+    display: flex;
+    align-items: center;
+    height: 140px;
+}
+
+.node-card .-node-locaweb {
+    padding: 0 2rem;
+    background-color: var(--color-warning);
+    border: 5px solid var(--color-black-first);
+    box-sizing: border-box;
+}
+
+.node-card .-node-get-ninjas {
+    background-color: var(--color-first);
+    border: 5px solid var(--color-black-first);
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.node-card .-node-impulso {
+    background-color: var(--color-warning);
+    border: 5px solid var(--color-black-first);
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
+
+.node-card .-node-collabcode {
+    background-color: var(--color-first);
+    border: 5px solid var(--color-black-first);
+    padding: 0 15px;
+    box-sizing: border-box;
+}

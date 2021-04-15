@@ -4,10 +4,13 @@
     background-color: var(--color-first);
     box-shadow: 5px 5px 0 var(--color-black-first);
     border: none;
-    margin: 0 1.5rem;
     text-align: center;
     cursor: pointer;
     transition: transform 200ms;
+}
+
+.-right {
+    margin-right: 3rem;
 }
 
 .btn-arrow::before {
