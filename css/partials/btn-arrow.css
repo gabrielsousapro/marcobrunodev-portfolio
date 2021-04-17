@@ -7,10 +7,8 @@
     text-align: center;
     cursor: pointer;
     transition: transform 200ms;
-}
-
-.-right {
-    margin-right: 3rem;
+    z-index: 1;
+    transform: translateY(40px);
 }
 
 .btn-arrow::before {
@@ -25,6 +23,23 @@
     
 }
 
+.btn-arrow:hover {
+    transform: scale(1.2) translateY(33px);
+}
+
 .btn-arrow.-left::before {
     transform: rotate(180deg) translateX(-5px);
+}
+
+.btn-arrow.-hidden {
+    overflow: hidden;
+    margin: 45px;
+}
+
+.-left{
+    margin-left: 2rem;
+}
+
+.-right {
+    margin-right: 2rem;
 }
