@@ -18,8 +18,8 @@
     width: 1.5rem;
     height: 1.5rem;
     border: 1.5rem solid transparent;
-    border-right: 2.8rem solid #fff;
-    transform: translateX(-12px);
+    border-left: 2.8rem solid #fff;
+    transform: translateX(5px);
     
 }
 
@@ -28,7 +28,7 @@
 }
 
 .btn-arrow.-left::before {
-    transform: rotate(180deg) translateX(-5px);
+    transform: rotate(180deg) translateX(12px);
 }
 
 .btn-arrow.-hidden {
