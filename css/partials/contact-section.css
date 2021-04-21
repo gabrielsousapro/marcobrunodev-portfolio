@@ -1,0 +1,68 @@
+.contact {
+    background-color: var(--color-black-second);
+    padding: 0 4rem;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 6rem;
+}
+
+.form label h2 {
+    margin: 0;
+    color: var(--color-third);
+    font-family: 'Fira Code', sans-serif;
+    font-weight: 0;
+    font-size: 2.8rem;
+    line-height: 3.8rem;
+}
+
+.form label textarea {
+    height: 315px;
+    font-family: 'Fira Code', sans-serif;
+    font-weight: normal;
+}
+
+.form label >* {
+    margin-bottom: 2rem;
+}
+
+.form .input-button {
+    color: var(--color-third);
+    background-color: var(--color-first);
+    border: none;
+    height: 5.5rem;
+    box-shadow: 5px 5px 0 var(--color-black-first);
+    font-size: 3rem;
+    font-family: 'Fira Code', sans-serif;
+    line-height: 3.9rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 400ms   ;
+}
+
+.form .input-button:hover {
+    transform: scale(1.03);
+}
+
+.-input-width {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.-input-height {
+    height: 4rem;
+}
+
+.-input-border {
+    border: 5px solid var(--color-black-first);
+}
+
+.-message-style {
+    font-size: 2rem;
+    list-style: 2.5rem;
+    padding: 1.5rem 1rem;
+    box-sizing: border-box;
+}
