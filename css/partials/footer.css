@@ -1,0 +1,14 @@
+#footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-black-first);
+    padding: 2.8rem 0;
+}
+
+#footer .social-media {
+    width: 215px;
+    display: flex;
+    justify-content: space-between;
+}
