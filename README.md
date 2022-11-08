@@ -1,4 +1,4 @@
-<h1 align="center">marcobrunodev-portfolio</h1>
+<h1 align="center">marco-bruno-dev-portfolio</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="https://github.com/marcobrunodev/firedlabs" target="_blank">FiredLabs</a>.
@@ -49,3 +49,7 @@ A portfolio project created as a challenge in the platform FiredLabs which is ad
 - GitHub [@gabrielsousapro](https://{github.com/gabrielsousapro})
 - Twitter [Gabriel23101364](https://twitter.com/Gabriel23101364)
 - E-mail sousadev.pro@gmail.com
+
+## License
+
+- [MIT](https://choosealicense.com/licenses/mit/)
