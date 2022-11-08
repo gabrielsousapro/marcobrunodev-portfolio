@@ -20,6 +20,7 @@
   - [Built With](#built-with)
 - [Features](#features)
 - [Contact](#contact)
+- [License](#license)
 
 <!-- OVERVIEW -->
 
